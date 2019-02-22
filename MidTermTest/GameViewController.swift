@@ -6,7 +6,6 @@
 //  Copyright © 2019 Thayllan Anacleto. All rights reserved.
 //
 
-import UIKit
 import SpriteKit
 import GameplayKit
 

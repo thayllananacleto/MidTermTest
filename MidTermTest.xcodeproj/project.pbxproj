@@ -14,7 +14,9 @@
 		9D141831221F71EC0090A793 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D141830221F71EC0090A793 /* GameViewController.swift */; };
 		9D141834221F71EC0090A793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D141832221F71EC0090A793 /* Main.storyboard */; };
 		9D141836221F71EF0090A793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D141835221F71EF0090A793 /* Assets.xcassets */; };
-		9D141839221F71EF0090A793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D141837221F71EF0090A793 /* LaunchScreen.storyboard */; };
+		9D141846221F74560090A793 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D141844221F74560090A793 /* Model.swift */; };
+		9D141847221F74560090A793 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D141845221F74560090A793 /* Utils.swift */; };
+		9D141849221F74740090A793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D141848221F74740090A793 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,10 @@
 		9D141830221F71EC0090A793 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9D141833221F71EC0090A793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D141835221F71EF0090A793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D141838221F71EF0090A793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D14183A221F71EF0090A793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D141844221F74560090A793 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9D141845221F74560090A793 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9D141848221F74740090A793 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +70,11 @@
 				9D14182E221F71EC0090A793 /* GameScene.swift */,
 				9D141830221F71EC0090A793 /* GameViewController.swift */,
 				9D141832221F71EC0090A793 /* Main.storyboard */,
+				9D141848221F74740090A793 /* LaunchScreen.storyboard */,
 				9D141835221F71EF0090A793 /* Assets.xcassets */,
-				9D141837221F71EF0090A793 /* LaunchScreen.storyboard */,
 				9D14183A221F71EF0090A793 /* Info.plist */,
+				9D141844221F74560090A793 /* Model.swift */,
+				9D141845221F74560090A793 /* Utils.swift */,
 			);
 			path = MidTermTest;
 			sourceTree = "<group>";
@@ -134,7 +140,7 @@
 				9D141834221F71EC0090A793 /* Main.storyboard in Resources */,
 				9D14182B221F71EC0090A793 /* GameScene.sks in Resources */,
 				9D141836221F71EF0090A793 /* Assets.xcassets in Resources */,
-				9D141839221F71EF0090A793 /* LaunchScreen.storyboard in Resources */,
+				9D141849221F74740090A793 /* LaunchScreen.storyboard in Resources */,
 				9D14182D221F71EC0090A793 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D141847221F74560090A793 /* Utils.swift in Sources */,
 				9D14182F221F71EC0090A793 /* GameScene.swift in Sources */,
 				9D141831221F71EC0090A793 /* GameViewController.swift in Sources */,
 				9D141829221F71EC0090A793 /* AppDelegate.swift in Sources */,
+				9D141846221F74560090A793 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +169,6 @@
 				9D141833221F71EC0090A793 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D141837221F71EF0090A793 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D141838221F71EF0090A793 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
